@@ -39,4 +39,24 @@ box-shadow: 0 0 20px rgb(0, 0, 0, .4);
 .calender::after{
  -webkit-transform: rotate(-1deg);
 }
-
+.calender h1{
+font-family: 'Monserrat';
+text-align: center;
+width: 100%;
+text-shadow:1px 1 px 20px rgb(0,0,0,.4);
+}
+.calender .day{
+display: block;
+width: 13.5%;
+height: 0;
+padding-top:6%;
+padding-bottom: 8%;
+float: left;
+text-align: center;
+background: #ddd;
+border: 1px solid #f7f7f7;
+font-family: sans-serif;
+font-size: 1.4em;
+-webkit-transition: all .2s ease;
+cursor: pointer;
+}
